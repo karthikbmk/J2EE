@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login/SignUp Page</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+	<div id="center">
+		<h3>Login Using Your Credentials</h3>
+		<form action="LoginServlet" method="post">
+			<table>
+				<tr>
+					Name :
+					<input type="text" name="uname" value="">
+				</tr>
+				</br>
+				<tr>
+					Pwd : &nbsp
+					<input type="password" name="pwd" value="">
+				</tr>
+				</br>
+				<tr>
+					<button ><h5>Click to Login</h5></button>
+				</tr>
+			</table>
+		</form>
+		<br> <br>
+		<h3>Create a New Account ?</h3>
+		<form action="SignUp" method="post">
+			Name :<input type="text" name="uname" value=""></br> Pwd : <input
+				type="password" name="pwd" value=""></br>
+			<button><h5>Click to SignUp</h5></button>
+		</form>
+
+	</div>
+
+</body>
+</html>

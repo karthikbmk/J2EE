@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Submit Your Reviews Here</title>
+</head>
+<body>
+	<form style="float: right" class="submit-button" method="post"
+		action="Logout">
+		<input class="submit-button" type="submit" name="logout"
+			value="Logout">
+		<form style="float: right" class="submit-button" method="post"
+			action="ShoppingCart">
+			<input class="submit-button" type="submit" name="Shopping Cart"
+				value="Shopping Cart">
+		</form>
+		<form action="storeReview" method="post">
+		<table>
+			<tr><td>ProductName :</td><td><input type="text" name="ProductName"></td><td></tr>
+			<tr><td>ProductCategory :</td><td><input type="text" name="ProductCategory"></td><td> </tr>
+			<tr><td>ProductPrice :</td><td><input type="text" name="ProductPrice"></td><td>  </tr>
+			<tr><td>RetailerName :</td><td><input type="text" name="RetailerName"></td><td>  </tr>
+			<tr><td>RetailerZip :</td><td><input type="text" name="RetailerZip"></td><td>  </tr>
+			<tr><td>RetailerCity :</td><td><input type="text" name="RetailerCity"></td><td>  </tr>
+			<tr><td>RetailerState :</td><td><input type="text" name="RetailerState"></td><td>  </tr>
+			<tr><td>ProductOnSale :</td><td><input type="text" name="ProductOnSale"></td><td>  </tr>
+			<tr><td>ManufacturerName :</td><td><input type="text" name="ManufacturerName"></td><td></tr>
+			<tr><td>ManufacturerRebate :</td><td><input type="text" name="ManufacturerRebate"></td><td></tr>
+			<tr><td>UserID :</td><td><input type="text" name="UserID"></td><td> </tr>
+			<tr><td>UserAge :</td><td><input type="text" name="UserAge"></td><td>  </tr> 
+			<tr><td>UserGender :</td><td><input type="text" name="UserGender"></td><td> </tr>
+			<tr><td> UserOccupation :</td><td><input type="text" name="UserOccupation"></td><td></tr> 
+			<tr><td>ReviewRating ( 1 - 5 ) :</td><td><input type="text" name="ReviewRating"></td><td>  </tr> 
+			<tr><td>ReviewDate :</td><td><input type="text" name="ReviewDate"></td><td>   </tr>
+			<tr><td>ReviewText :</td><td><textarea rows="4" cols="50" name="ReviewText">Enter Your comments here.. </textarea></td></tr>
+			<tr><td><button>SUBMIT</button>
+			 
+			</table>
+		</form>
+</body>
+</html>

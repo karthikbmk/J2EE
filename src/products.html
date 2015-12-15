@@ -1,0 +1,141 @@
+<!doctype html>
+
+<!-- INDEX -->
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CSP 595 - Tutorial 2</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>
+				<a href="/">Welcome to Online Shop</a>
+			</h1>			
+		</header>
+
+		<nav>
+			<ul>
+				<li class="start selected">
+					<form action="index.html" method="post">
+						<button>Home</button>
+					</form>
+				</li>
+
+				<li class=""><a href="XBox.html">XBox</a></li>
+				<li class=""><a href="PlayStation.html">Play Station</a></li>
+				<li class="end"><a href="games.html">Games</a></li>
+			</ul>
+		</nav>
+
+
+
+		<form style="float: right" class="submit-button" method="post"
+			action="ViewOrders">
+			<input class="submit-button" type="submit" name="OrdersHistory"
+				value="View Orders History">
+		</form>
+
+		<form style="float: right" class="submit-button" method="post"
+			action="Logout">
+			<input class="submit-button" type="submit" name="logout"
+				value="Logout">
+		</form>
+
+		<form style="float: right" class="submit-button" method="post"
+			action="ShoppingCart">
+			<input class="submit-button" type="submit" name="Shopping Cart"
+				value="Shopping Cart">
+		</form><br><br><br><br>
+		<img class="header-image"
+			src="images/img_index1.jpg" width="100%" height="100%"
+			alt="Index Page Image" />
+
+		<div id="body">
+
+			<section id="content">
+
+				<article>
+
+					<h2>Shop the available items from Left Panel</h2>
+
+				</article>
+
+				<article class="expanded">
+
+					<h4>Our Goods are 100% reliable</h4>
+
+
+				</article>
+			</section>
+
+			<aside class="sidebar">
+
+				<ul>
+					<li>
+						<h4>Products</h4>
+						<ul>
+							<li><a href="XBox.html">XBox</a></li>
+							<li><a href="PlayStation.html">Play Station</a></li>
+							<li><a href="games.html">Games</a></li>
+
+						</ul>
+					</li>
+
+					<li>
+						<h4>About us</h4>
+						<ul>
+							<li class="text">
+								<p style="margin: 0;">This is a sample website created to
+									demonstrate a standard enterprise web page.</p>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>Search site</h4>
+						<ul>
+							<li class="text">
+								<form method="get" class="searchform" action="#">
+									<p>
+										<input type="text" size="25" value="" name="s" class="s" />
+
+									</p>
+								</form>
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<h4>Helpful Links</h4>
+						<ul>
+							<li><a href="http://www.w3schools.com/html/default.asp"
+								title="premium templates">Learn HTML here</a></li>
+							<li><a href="http://www.w3schools.com/css/default.asp"
+								title="web hosting">Learn CSS here</a></li>
+
+						</ul>
+					</li>
+
+				</ul>
+
+			</aside>
+
+			<div class="clear"></div>
+		</div>
+
+		<footer>
+
+			<div class="footer-bottom">
+				<p>Shopping site</p>
+			</div>
+
+		</footer>
+	</div>
+
+</body>
+
+</html>
